@@ -91,14 +91,14 @@ The services might require configurations for database connections, service disc
 
    you can check your containers from docker desktop:
 
-   ![Container](./images/docker.png)
+![Container](./images/docker.png)
    
 3. **Access the Services**:
    Once the services are up and running, access the services through their respective endpoints:
    - Eureka server: [http://localhost:8761](http://localhost:8761)
    - Gateway: [http://localhost:8888](http://localhost:8888)
    - Client: [http://localhost:8088](http://localhost:8088)
-   - Client: [http://localhost:8089](http://localhost:8089)
+   - Voiture: [http://localhost:8089](http://localhost:8089)
    <!-- Replace 'port' with the actual port numbers defined in your services -->
 
 ### Project Structure
