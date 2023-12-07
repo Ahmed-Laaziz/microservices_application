@@ -52,18 +52,20 @@ The primary goal of this project is to demonstrate a Microservices architecture 
 
 ### Client Service
 
-- Endpoint: `/client`
+- Endpoint: `/clients`
 - API endpoints:
-  - `GET /client/{id}`: Retrieve client information by ID.
-  - `POST /client`: Add a new client.
+- - `GET /clients`: Retrieve clients information.
+  - `GET /clients/{id}`: Retrieve client information by ID.
+  - `POST /clients`: Add a new client.
+  - `PUT /clients/{id}`: Update client information by ID.
+  - `DELETE /clients/{id}`: Delete client by ID.
   <!-- Provide additional usage details or examples -->
 
 ### Car Service
 
-- Endpoint: `/car`
+- Endpoint: `/voitures`
 - API endpoints:
-  - `GET /car/{id}`: Retrieve car information by ID.
-  - `POST /car`: Add a new car.
+  - `GET /voitures/client/{id}`: Retrieve car information by client ID.
   <!-- Provide additional usage details or examples -->
 
 ## Configuration
