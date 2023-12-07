@@ -20,6 +20,7 @@ This project implements a Microservices (M.S.) architecture consisting of two ma
 The primary goal of this project is to demonstrate a Microservices architecture with two crucial components: the Client Service and the Car Service. These services communicate to maintain data integrity and consistency between the databases storing client and car information.
 
 ## Architecture
+![Architecture](./images/arch.png)
 
 ### Client Service
 
