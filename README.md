@@ -89,8 +89,7 @@ This project is licensed under the [MIT License](link_to_license).
 ## Contact
 
 For any queries or concerns, feel free to contact the project maintainers:
-- [Maintainer Name](mailto:maintainer@example.com)
-- [Contributor Name](mailto:contributor@example.com)
+- [Laaziz Ahmed](mailto:laazizahmed72@gmail.com)
 
 ## Acknowledgments
 
