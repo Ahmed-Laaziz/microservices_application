@@ -99,6 +99,7 @@ you can check your containers from docker desktop:
    - Gateway: [http://localhost:8888](http://localhost:8888)
    - Client: [http://localhost:8088](http://localhost:8088)
    - Voiture: [http://localhost:8089](http://localhost:8089)
+   - MySQL: [http://localhost:3306](http://localhost:3306)
    <!-- Replace 'port' with the actual port numbers defined in your services -->
 
 ### Project Structure
