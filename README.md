@@ -89,7 +89,7 @@ The services might require configurations for database connections, service disc
    ```bash
    docker compose up
 
-   you can check your containers from docker desktop:
+you can check your containers from docker desktop:
 
 ![Container](./images/docker.png)
    
