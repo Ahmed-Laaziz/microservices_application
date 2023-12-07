@@ -9,6 +9,7 @@ This project implements a Microservices (M.S.) architecture consisting of two ma
 - [Setup](#setup)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Containerization](#containerization)
 - [Contribution](#contribution)
 - [Testing](#testing)
 - [License](#license)
@@ -71,6 +72,45 @@ The primary goal of this project is to demonstrate a Microservices architecture 
 ## Configuration
 
 The services might require configurations for database connections, service discovery (e.g., Eureka), and communication protocols. Details on configuration options and their impacts are available in the respective service directories.
+
+## Containerization
+
+### Requirements
+
+- [Docker](https://www.docker.com/products/docker-desktop) installed on your machine.
+
+### Steps
+
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/Ahmed-Laaziz/microservices_application/edit/master
+   cd your-repo
+2. **Run Docker Compose**:
+   ```bash
+   docker compose up
+
+   you can check your containers from docker desktop:
+
+   ![Container](./images/docker.png)
+   
+3. **Access the Services**:
+   Once the services are up and running, access the services through their respective endpoints:
+   - Eureka server: [http://localhost:8761](http://localhost:8761)
+   - Gateway: [http://localhost:8888](http://localhost:8888)
+   - Client: [http://localhost:8088](http://localhost:8088)
+   - Client: [http://localhost:8089](http://localhost:8089)
+   <!-- Replace 'port' with the actual port numbers defined in your services -->
+
+### Project Structure
+
+Make sure you are in the root directory of the project before executing the Docker commands. ```bash
+cd your-repo
+
+
+### Notes
+
+- Modify the Docker Compose file or service configurations as needed for your environment or specific setup.
+- Ensure no other services are running on the same ports defined in the docker-compose.yml file to avoid conflicts.
 
 ## Contribution
 
