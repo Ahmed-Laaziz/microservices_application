@@ -93,4 +93,9 @@ For any queries or concerns, feel free to contact the project maintainers:
 
 ## Acknowledgments
 
-- Mention any individuals, libraries, or resources that contributed to the project.
+- We extend our sincere gratitude to our supervisor for his invaluable guidance, expertise, and unwavering support throughout this project. This journey has been both challenging and rewarding, and we couldn't have achieved this without your mentorship.
+
+---
+
+<div align="center">⭐ Don't forget to star this repository if you find it helpful! ⭐</div>
+
